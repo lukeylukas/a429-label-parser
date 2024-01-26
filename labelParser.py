@@ -41,7 +41,7 @@ def GetColumns( reader ):
 def ProcessCsvData( reader ):
   newArray = []
   newArray.append(reader[0])
-  newArray[0].append('Field Value')
+  newArray[0].append('Engineering Value')
 
   for row in reader[1:]:
     if RowIsUseful(row):
